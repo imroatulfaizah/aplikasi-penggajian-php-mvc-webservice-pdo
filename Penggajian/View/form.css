@@ -1,0 +1,43 @@
+
+html,
+body {
+    height: 100%;
+}
+
+.container 
+{
+    height: 100%;
+    width:100%;
+    background-image: url("images/singapore-river-255116_1920.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;    
+}
+.container-box
+{
+	display:inline-block; 
+	padding:10px; 
+	background: rgba(255, 255, 255, .8);
+	border: 1px solid #fff;	
+	position: fixed;
+  	top: 55%;
+  	left: 0;
+
+}
+
+.modal-content
+{
+	background: rgba(255, 255, 255, .7);	
+}
+
+
+.rotated
+{
+	-moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    -webkit-transform:rotate(-90deg);
+    transform-origin: top left;  
+}
+
+
+
